@@ -2,6 +2,10 @@
 
 Todo Next:
 
+  - Permanent GUI
+  - Weapons Management
+  - Pause Menu and Main Menu
+
 Features to Implement:
 
   Movement Particles
