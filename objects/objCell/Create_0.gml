@@ -8,3 +8,8 @@ ammo = 20;
 totalHealth = 100;
 health = totalHealth;
 iframes = 0;
+
+//Child Information
+
+walkingSprite = sprCellRun;
+idleSprite = sprCellIdle;

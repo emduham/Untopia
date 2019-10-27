@@ -58,7 +58,7 @@
             "Key": "08cb0476-e4a4-48d2-9b78-f140cd778d2a",
             "Value": {
                 "id": "51ce159d-1111-4e15-8cbd-c8fc72233ebd",
-                "resourcePath": "sprites\\sprFishRun\\sprFishRun.yy",
+                "resourcePath": "sprites\\sprCellRun\\sprCellRun.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -68,6 +68,14 @@
                 "id": "fe9869bf-b278-4eaa-b2d0-2bf7cf90af59",
                 "resourcePath": "views\\09b74b5a-b0be-4e21-9106-3dece4f2aec9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "09f9d68a-040d-4a97-a5b7-258f624ef32e",
+            "Value": {
+                "id": "35a7037d-5278-46d0-9d75-31d7d0ba103e",
+                "resourcePath": "sprites\\sprBulletFlash\\sprBulletFlash.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -178,7 +186,7 @@
             "Key": "6e7ffbc3-81bd-4d65-a1e3-55e02aa1b1e6",
             "Value": {
                 "id": "ad1628a3-ad2b-439d-bca7-f4190e4b0975",
-                "resourcePath": "sprites\\sprFishIdle\\sprFishIdle.yy",
+                "resourcePath": "sprites\\sprCellIdle\\sprCellIdle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -324,6 +332,14 @@
                 "id": "f6d5386d-ca78-4285-b838-f1dbde6b7b7e",
                 "resourcePath": "views\\b2be96ea-cb25-4553-a879-7a9c4c85b83b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b4a4a026-6731-49fc-b1d9-26574a257fc2",
+            "Value": {
+                "id": "738e20ce-feb9-49eb-a78c-eafeded44010",
+                "resourcePath": "objects\\objCell\\objCell.yy",
+                "resourceType": "GMObject"
             }
         },
         {
