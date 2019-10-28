@@ -80,30 +80,6 @@ if (mouse_x - x < 0) {
 	image_xscale = -1;
 }
 
-
-//Handle Shooting
-if (currentFireRate <= 0 && mouse_check_button(mb_left) && ammo > 0) {
-	var bullet;
-	distScale = point_distance(x, y, mouse_x, mouse_y) / 20;	//TODO 20 is a global gun length variable.
-	bulletX = x + ((mouse_x - x) / distScale);
-	bulletY = y + ((mouse_y - y) / distScale);
-	bullet = instance_create_depth(bulletX, bulletY, 3, objBullet);
-	with (bullet) {
-		projectileSpeed = 8;
-		angleTan = (y - mouse_y) / (mouse_x - x);
-		image_angle = 180 * arctan(angleTan) / pi;
-		if (mouse_x - x < 0) {
-			image_angle += 180;	
-		}
-		vSpeed = projectileSpeed * ((mouse_y - y) / point_distance(x, y, mouse_x, mouse_y));
-		hSpeed = projectileSpeed * ((mouse_x - x) / point_distance(x, y, mouse_x, mouse_y));
-	}
-	currentFireRate = fireRate;
-	ammo--;
-} else {
-	currentFireRate--;
-}
-
 if (iframes > 0) {
 	iframes--;
 }

@@ -1,6 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 randomize();
 
 speed = 1.0;
@@ -13,3 +10,5 @@ if (direction == 135 || direction == 180 || direction == 225) {
 
 minFireRate = 40.0;
 currentFireRate = random_range(minFireRate, minFireRate * 3);
+
+hp = 5;

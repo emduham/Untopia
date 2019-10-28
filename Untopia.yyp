@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "21ca55a7-fdb0-4242-8eab-1ba421c5d110",
-            "Value": {
-                "id": "961675ba-6ce7-478a-836d-7356297b51cb",
-                "resourcePath": "objects\\objAmmo\\objAmmo.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2ba1f759-7956-410b-beed-23c16a0d338f",
             "Value": {
                 "id": "384a67ed-129d-4b38-88b6-887480f8c410",
@@ -183,6 +175,14 @@
             }
         },
         {
+            "Key": "6afdb42e-584d-4a1e-af27-be4b10547ca9",
+            "Value": {
+                "id": "0a77516d-7da4-4f59-b370-150fe0c4da67",
+                "resourcePath": "objects\\objSMG\\objSMG.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6e7ffbc3-81bd-4d65-a1e3-55e02aa1b1e6",
             "Value": {
                 "id": "ad1628a3-ad2b-439d-bca7-f4190e4b0975",
@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "8672a828-2656-46a8-b876-308154879c17",
+            "Value": {
+                "id": "d328ec0f-59e9-4427-9b2f-04145c129021",
+                "resourcePath": "objects\\absGunFullAuto\\absGunFullAuto.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8d2f2a13-d7b9-45fa-b044-c19a40f80741",
             "Value": {
                 "id": "18062ca8-33a1-403d-8322-af263dcd7edb",
@@ -324,6 +332,14 @@
                 "id": "64a191cf-1867-4d83-ab0b-6a319c8af809",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ac52a53d-4b12-4ea8-a94b-e56237036460",
+            "Value": {
+                "id": "b020f4f9-b468-4922-a8b0-e3365be80966",
+                "resourcePath": "objects\\absGun\\absGun.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -407,6 +423,14 @@
             }
         },
         {
+            "Key": "e18219e5-004b-4700-9d23-24e2b17966ff",
+            "Value": {
+                "id": "040dd450-d9f7-47d9-adf8-42f890cb66d8",
+                "resourcePath": "objects\\absSemiAuto\\absSemiAuto.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f1fe0ef0-439a-453f-9bd7-a2b59e9c4162",
             "Value": {
                 "id": "8d5b3d5c-964f-4bc1-872a-d1006d8e0a2f",
@@ -459,6 +483,14 @@
             "Value": {
                 "id": "4118a31f-e4bc-434e-8ff8-766ef49d3da6",
                 "resourcePath": "sprites\\sprRevolver\\sprRevolver.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fce15207-5220-4c5f-b022-1964f12afdb9",
+            "Value": {
+                "id": "9cce7256-3236-40a3-9aac-f06f3c80a4a0",
+                "resourcePath": "sprites\\sprSMG\\sprSMG.yy",
                 "resourceType": "GMSprite"
             }
         },

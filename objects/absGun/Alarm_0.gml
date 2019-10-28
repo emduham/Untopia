@@ -1,0 +1,2 @@
+reloading = false;
+currentMag = maxMag;
