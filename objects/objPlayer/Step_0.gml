@@ -9,18 +9,18 @@ if (keyboard_check(ord("A")) && !keyboard_check(ord("D"))) {
 	if (keyboard_check(ord("W")) && !keyboard_check(ord("S"))) {
 		//Moving Up and Left
 		if (place_free((x - moveSpeed), y)) {
-			x -= moveSpeed;
+			x -= diagonalMoveSpeed;
 		} 
 		if (place_free(x, (y - moveSpeed))) {
-			y -= moveSpeed;
+			y -= diagonalMoveSpeed;
 		}
 	} else if (keyboard_check(ord("S"))) {
 		//Moving Down and Left
 		if (place_free((x - moveSpeed), y)) {
-			x -= moveSpeed;
+			x -= diagonalMoveSpeed;
 		}
 		if (place_free(x, (y + moveSpeed))) {
-			y += moveSpeed;
+			y += diagonalMoveSpeed;
 		}
 	} else {
 		//Move Left
@@ -33,18 +33,18 @@ if (keyboard_check(ord("A")) && !keyboard_check(ord("D"))) {
 	if (keyboard_check(ord("W")) && !keyboard_check(ord("S"))) {
 		//Moving Up and Right
 		if (place_free((x + moveSpeed), y)) {
-			x += moveSpeed;
+			x += diagonalMoveSpeed;
 		}
 		if (place_free(x,  (y - moveSpeed))) {
-			y -= moveSpeed;
+			y -= diagonalMoveSpeed;
 		}
 	} else if (keyboard_check(ord("S"))) {
 		//Moving Down and Right
 		if (place_free((x + moveSpeed), y)) {
-			x += moveSpeed;
+			x += diagonalMoveSpeed;
 		}
 		if (place_free(x, (y + moveSpeed))) {
-			y += moveSpeed;
+			y += diagonalMoveSpeed;
 		}
 	} else {
 		//Move Right
