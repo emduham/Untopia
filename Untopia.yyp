@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "2a1b7913-6da7-4c50-947f-748bf83e7ec5",
+            "Value": {
+                "id": "782dd0d8-c1ca-4341-82cb-8980bf3fd121",
+                "resourcePath": "objects\\objCameraFollower\\objCameraFollower.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2ba1f759-7956-410b-beed-23c16a0d338f",
             "Value": {
                 "id": "384a67ed-129d-4b38-88b6-887480f8c410",
@@ -159,6 +167,14 @@
             }
         },
         {
+            "Key": "64e8f98d-aaa4-43c9-987a-64d2909c4ece",
+            "Value": {
+                "id": "627e4a5e-587c-4458-858b-f70aee7f8815",
+                "resourcePath": "objects\\objBulletExplode\\objBulletExplode.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "65080f93-aa76-41e4-bafa-5d9c6f2d3c21",
             "Value": {
                 "id": "f7bc8046-0357-46b8-9f64-a879514452fa",
@@ -227,6 +243,14 @@
             "Value": {
                 "id": "45737ee6-53d4-468e-940f-2d8631c852de",
                 "resourcePath": "sprites\\sprRebelIdle\\sprRebelIdle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "77d90720-aa9d-4d8a-8ac0-416110f23194",
+            "Value": {
+                "id": "7f80a9b4-4e73-497b-8fa3-a6baebbee267",
+                "resourcePath": "sprites\\sprBulletExplode\\sprBulletExplode.yy",
                 "resourceType": "GMSprite"
             }
         },

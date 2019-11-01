@@ -16,7 +16,7 @@ if (mouse_y - y > 0) {
 	depth = 2;
 }
 
-//Firing Mode - Semi Auto
+//Firing Mode - Full Auto
 //Handle Shooting
 if (currentFireRate <= 0 && mouse_check_button(mb_left) && currentMag > 0 && !reloading) {
 	var bullet;
