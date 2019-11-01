@@ -38,7 +38,9 @@ if (currentFireRate <= 0 && mouse_check_button(mb_left) && currentMag > 0 && !re
 	currentFireRate = fireRate;
 	currentMag--;
 } else if (currentMag > 0) {
-	currentFireRate--;
+	if (currentFireRate >= 0) {
+		currentFireRate--;
+	}
 } else if (!reloading) {
 	alarm[0] = reloadSpeed;
 	reloading = true;

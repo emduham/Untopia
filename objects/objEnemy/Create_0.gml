@@ -11,4 +11,4 @@ if (direction == 135 || direction == 180 || direction == 225) {
 minFireRate = 40.0;
 currentFireRate = random_range(minFireRate, minFireRate * 3);
 
-hp = 5;
+hp = 12;
