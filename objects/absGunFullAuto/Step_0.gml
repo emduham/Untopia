@@ -25,15 +25,19 @@ if (currentFireRate <= 0 && mouse_check_button(mb_left) && currentMag > 0 && !re
 	bulletY = y + ((mouse_y - y) / distScale);
 	bullet = instance_create_depth(bulletX, bulletY, 3, objBullet);
 	with (bullet) {
-		damage = 3;	//Fix this later
+		damage = global.currentGunDamage;
 		projectileSpeed = 8;
-		angleTan = (y - mouse_y) / (mouse_x - x);
-		image_angle = 180 * arctan(angleTan) / pi;
-		if (mouse_x - x < 0) {
-			image_angle += 180;	
-		}
-		vSpeed = projectileSpeed * ((mouse_y - y) / point_distance(x, y, mouse_x, mouse_y));
-		hSpeed = projectileSpeed * ((mouse_x - x) / point_distance(x, y, mouse_x, mouse_y));
+		deltaY = y - mouse_y;
+		deltaX = mouse_x - x;
+		oldAngle = 180 * arctan2(deltaY, deltaX) / pi;
+		image_angle = oldAngle - (global.currentRecoil * 5) + (10 * random(1.0) * global.currentRecoil);
+		
+		vSpeed = projectileSpeed * (dcos(image_angle + 90));
+		hSpeed = projectileSpeed * (dsin(image_angle + 90));
+	}
+	global.currentRecoil += global.stepRecoil;
+	if (global.currentRecoil >= global.maxRecoil) {
+		global.currentRecoil = global.maxRecoil;	
 	}
 	currentFireRate = fireRate;
 	currentMag--;
@@ -45,3 +49,4 @@ if (currentFireRate <= 0 && mouse_check_button(mb_left) && currentMag > 0 && !re
 	alarm[0] = reloadSpeed;
 	reloading = true;
 }
+

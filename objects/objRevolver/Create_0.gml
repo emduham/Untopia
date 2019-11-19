@@ -5,5 +5,8 @@ maxMag = 6;
 reloadSpeed = 40;
 reloading = false;
 gunLength = 20;
+global.maxRecoil = 15;
+global.stepRecoil = 5;
+global.currentRecoil = 0;
 
-bulletDamage = 3;
+global.currentGunDamage = 5;
