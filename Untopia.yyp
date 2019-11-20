@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "7ae41c3e-0f80-4878-b131-9957fcc5eeec",
+            "Value": {
+                "id": "b47d9763-3f81-4ece-abb4-fbca316497d9",
+                "resourcePath": "objects\\objPause\\objPause.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7c787741-af94-41db-b73b-f35ee1b6aecb",
             "Value": {
                 "id": "f1ef1e2d-44b6-4545-9a50-f3797dc3ccf9",
