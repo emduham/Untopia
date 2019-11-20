@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "15d5eb85-41b4-4b9b-afdf-8f4c089f446b",
+            "Value": {
+                "id": "fbb26486-d029-44c7-8ad3-419e3cbaf94f",
+                "resourcePath": "objects\\objShotgun\\objShotgun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2a1b7913-6da7-4c50-947f-748bf83e7ec5",
             "Value": {
                 "id": "782dd0d8-c1ca-4341-82cb-8980bf3fd121",
@@ -111,6 +119,14 @@
             }
         },
         {
+            "Key": "392c296e-db38-4282-873c-2479984566e9",
+            "Value": {
+                "id": "2da7a61c-406d-45a8-9e00-42988bd1610b",
+                "resourcePath": "rooms\\RmLaboratory\\RmLaboratory.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3cf8c27d-687f-4372-b73b-6266fe11cbf0",
             "Value": {
                 "id": "b04b44f7-afb1-49f7-a7ad-f42f9e94e16b",
@@ -132,6 +148,22 @@
                 "id": "23747e4d-f3f9-4658-b3e6-23e95c4caa24",
                 "resourcePath": "fonts\\fntGUI\\fntGUI.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "50e9017e-fe8d-4aba-b671-c7f141f884f8",
+            "Value": {
+                "id": "add24885-51c0-49da-880e-31ded8533732",
+                "resourcePath": "sprites\\sprLabsSheet\\sprLabsSheet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "512790fa-261e-4197-86e7-007ecb84e8a8",
+            "Value": {
+                "id": "15c5278a-7823-4afe-866a-27623a6e7b61",
+                "resourcePath": "tilesets\\Laboratory\\Laboratory.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -239,14 +271,6 @@
             }
         },
         {
-            "Key": "759a7dc1-67cb-4f49-b863-574e2e1b9e6e",
-            "Value": {
-                "id": "45737ee6-53d4-468e-940f-2d8631c852de",
-                "resourcePath": "sprites\\sprRebelIdle\\sprRebelIdle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "77d90720-aa9d-4d8a-8ac0-416110f23194",
             "Value": {
                 "id": "7f80a9b4-4e73-497b-8fa3-a6baebbee267",
@@ -351,6 +375,14 @@
             }
         },
         {
+            "Key": "9ce13e67-0db1-4c9d-ad1e-eaf11a78a3df",
+            "Value": {
+                "id": "f665014b-55e4-4aba-96b0-108354ec5028",
+                "resourcePath": "sprites\\sprSmallEnemy\\sprSmallEnemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "64a191cf-1867-4d83-ab0b-6a319c8af809",
@@ -431,6 +463,14 @@
             }
         },
         {
+            "Key": "daf0e927-268f-41ed-a1e3-9a5e06b6f991",
+            "Value": {
+                "id": "d730e86f-1e14-4ccb-a7b7-bde5a7dc2a79",
+                "resourcePath": "sprites\\sprMediumEnemy\\sprMediumEnemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "db977251-e0e9-47ee-ad68-cebab9f86428",
             "Value": {
                 "id": "a1f8b72b-b6fd-4431-8d66-f4c7212434d0",
@@ -451,6 +491,22 @@
             "Value": {
                 "id": "040dd450-d9f7-47d9-adf8-42f890cb66d8",
                 "resourcePath": "objects\\absSemiAuto\\absSemiAuto.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e6d9d500-e932-4f79-8aec-bec49a46c76b",
+            "Value": {
+                "id": "34d021eb-0f65-46eb-9d90-814c10d39783",
+                "resourcePath": "sprites\\sprShotgun\\sprShotgun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f01fa0e8-576c-4821-aa1a-30d495aae589",
+            "Value": {
+                "id": "fa9617bc-e860-4d89-aeda-6242e05dc26e",
+                "resourcePath": "objects\\absSemiShotgun\\absSemiShotgun.yy",
                 "resourceType": "GMObject"
             }
         },

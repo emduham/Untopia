@@ -26,11 +26,11 @@ if (currentFireRate <= 0 && mouse_check_button_pressed(mb_left) && currentMag > 
 	bullet = instance_create_depth(bulletX, bulletY, 3, objBullet);
 	with (bullet) {
 		damage = global.currentGunDamage;
-		projectileSpeed = 8;
-		deltaY = y - mouse_y;
-		deltaX = mouse_x - x;
+		projectileSpeed = global.bulletSpeed;
+		deltaY = objPlayer.y - mouse_y;
+		deltaX = mouse_x - objPlayer.x;
 		oldAngle = 180 * arctan2(deltaY, deltaX) / pi;
-		image_angle = oldAngle - (global.currentRecoil * 5) + (10 * random(1.0) * global.currentRecoil);
+		image_angle = oldAngle - (global.currentRecoil) + (2 * random(1.0) * global.currentRecoil);
 		
 		vSpeed = projectileSpeed * (dcos(image_angle + 90));
 		hSpeed = projectileSpeed * (dsin(image_angle + 90));
@@ -41,7 +41,8 @@ if (currentFireRate <= 0 && mouse_check_button_pressed(mb_left) && currentMag > 
 	}
 	currentFireRate = fireRate;
 	currentMag--;
-	//Todo Recoil Cool Down
+	alarm[1] = 30;		//Alarm sets the gun to start cooling down.
+	recoilCooldown = false;
 } else if (currentMag > 0) {
 	currentFireRate--;
 	
@@ -49,3 +50,7 @@ if (currentFireRate <= 0 && mouse_check_button_pressed(mb_left) && currentMag > 
 	alarm[0] = reloadSpeed;
 	reloading = true;
 } 
+
+if (recoilCooldown && global.currentRecoil > 0) {
+	global.currentRecoil--;
+}
