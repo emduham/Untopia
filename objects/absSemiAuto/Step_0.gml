@@ -47,7 +47,11 @@ if (currentFireRate <= 0 && mouse_check_button_pressed(mb_left) && currentMag > 
 	currentFireRate--;
 	
 } else if (!reloading) {
-	alarm[0] = reloadSpeed;
+	if (global.characterChoice == "cell") {
+		alarm[0] = reloadSpeed / 2;
+	} else {
+		alarm[0] = reloadSpeed;
+	}
 	reloading = true;
 } 
 

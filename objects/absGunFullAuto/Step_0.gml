@@ -48,9 +48,13 @@ if (currentFireRate <= 0 && mouse_check_button(mb_left) && currentMag > 0 && !re
 		currentFireRate--;
 	}
 } else if (!reloading) {
-	alarm[0] = reloadSpeed;
+	if (global.characterChoice == "cell") {
+		alarm[0] = reloadSpeed / 2;
+	} else {
+		alarm[0] = reloadSpeed;
+	}
 	reloading = true;
-}
+} 
 
 if (recoilCooldown && global.currentRecoil > 0) {
 	global.currentRecoil--;
