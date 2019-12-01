@@ -11,3 +11,4 @@ iframes = 0;
 
 walkingSprite = sprDuaneRun;
 idleSprite = sprDuaneIdle;
+activeSkillCooldown = true;
