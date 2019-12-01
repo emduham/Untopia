@@ -1,4 +1,5 @@
 global.currentRecoil = 0;
+global.gunEquipped = false;
 
 menu_x = x;
 menu_y = y;

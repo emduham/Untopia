@@ -1,3 +1,5 @@
+equipped = false;
+
 fireRate = 8.00;
 currentFireRate = 0.0;
 currentMag = 24;

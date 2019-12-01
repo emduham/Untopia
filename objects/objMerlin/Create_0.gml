@@ -11,3 +11,4 @@ iframes = 0;
 
 walkingSprite = sprMerlinRun;
 idleSprite = sprMerlinIdle;
+activeSkillCooldown = true;

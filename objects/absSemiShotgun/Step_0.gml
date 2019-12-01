@@ -1,24 +1,26 @@
-x = objPlayer.x;
-y = objPlayer.y;
-
-gunAngle = (y - mouse_y) / (mouse_x - x);
-image_angle = 180 * arctan(gunAngle) / pi;
-if (mouse_x - x < 0) {
-	image_angle += 180;
-	image_yscale = -1;
-} else {
-	//Reset the yscale\
-	image_yscale = 1;
-}
-if (mouse_y - y > 0) {
-	depth = -2;
-} else {
-	depth = 2;
+if (equipped) {
+	x = objPlayer.x;
+	y = objPlayer.y;
+	
+	gunAngle = (y - mouse_y) / (mouse_x - x);
+	image_angle = 180 * arctan(gunAngle) / pi;
+	if (mouse_x - x < 0) {
+		image_angle += 180;
+		image_yscale = -1;
+	} else {
+		//Reset the yscale\
+		image_yscale = 1;
+	}
+	if (mouse_y - y > 0) {
+		depth = -2;
+	} else {
+		depth = 2;
+	}
 }
 
 //Firing Mode - Semi Auto
 //Handle Shooting
-if (currentFireRate <= 0 && mouse_check_button_pressed(mb_left) && currentMag > 0 && !reloading) {
+if (currentFireRate <= 0 && mouse_check_button_pressed(mb_left) && currentMag > 0 && !reloading && equipped) {
 	var bullet;
 	distScale = point_distance(x, y, mouse_x, mouse_y) / gunLength;
 	bulletX = x + ((mouse_x - x) / distScale);
@@ -46,10 +48,10 @@ if (currentFireRate <= 0 && mouse_check_button_pressed(mb_left) && currentMag > 
 	currentMag--;
 	alarm[1] = 30;		//Alarm sets the gun to start cooling down.
 	recoilCooldown = false;
-} else if (currentMag > 0) {
+} else if (currentMag > 0  && equipped) {
 	currentFireRate--;
 	
-} else if (!reloading) {
+} else if (!reloading  && equipped) {
 	if (global.characterChoice == "cell") {
 		alarm[0] = reloadSpeed / 2;
 	} else {
@@ -58,6 +60,6 @@ if (currentFireRate <= 0 && mouse_check_button_pressed(mb_left) && currentMag > 
 	reloading = true;
 } 
 
-if (recoilCooldown && global.currentRecoil > 0) {
+if (recoilCooldown && global.currentRecoil > 0  && equipped) {
 	global.currentRecoil--;
 }

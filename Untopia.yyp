@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1c7a0de9-a40e-4c8c-b712-1dba1db32755",
+            "Value": {
+                "id": "d0c8b8a2-9e84-4680-aa02-40e97b6dc82b",
+                "resourcePath": "sprites\\sprOpenChest\\sprOpenChest.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "26418263-80d5-46e3-ae8c-ac7b4809ca54",
             "Value": {
                 "id": "787ecd2c-da81-4395-9e0c-4932f0b38377",
@@ -164,6 +172,14 @@
                 "id": "2da7a61c-406d-45a8-9e00-42988bd1610b",
                 "resourcePath": "rooms\\RmLaboratory\\RmLaboratory.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3a43788f-6c02-4165-87b4-ecef92c22626",
+            "Value": {
+                "id": "574164e3-68d2-4a85-bbd7-e485eadf99bc",
+                "resourcePath": "sprites\\sprClosedChest\\sprClosedChest.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -236,6 +252,14 @@
                 "id": "835a45e1-96d8-4e53-a10a-2b782d1500a2",
                 "resourcePath": "sprites\\sprHalfBrick\\sprHalfBrick.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "59b874c5-38c0-4d0f-9c89-b937748e8bf9",
+            "Value": {
+                "id": "7540f9d2-a31c-42f9-ae8b-3ea1cb3062be",
+                "resourcePath": "objects\\objChest\\objChest.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -347,6 +371,14 @@
             "Value": {
                 "id": "7f80a9b4-4e73-497b-8fa3-a6baebbee267",
                 "resourcePath": "sprites\\sprBulletExplode\\sprBulletExplode.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "78d60c49-2cbf-4dfb-90da-a98db4200332",
+            "Value": {
+                "id": "a8bc8339-fceb-4ccc-9fe6-64e8e44a81d4",
+                "resourcePath": "sprites\\sprFireball\\sprFireball.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -540,6 +572,14 @@
                 "id": "5e631a15-c3ae-4fab-b8b0-4bf3a3ca44f4",
                 "resourcePath": "sprites\\sprBricks\\sprBricks.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c6fa18da-0674-49e7-bdbd-b0be274853fc",
+            "Value": {
+                "id": "6dd1cd25-eb1c-41e0-8fd9-750113d3ee3a",
+                "resourcePath": "objects\\objFireball\\objFireball.yy",
+                "resourceType": "GMObject"
             }
         },
         {
