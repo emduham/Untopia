@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "226d13ce-f9ad-40df-9701-c5f254425394",
+            "Value": {
+                "id": "8d9ab7d9-8992-4893-8a4e-05b78c646fe8",
+                "resourcePath": "objects\\objWave\\objWave.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "26418263-80d5-46e3-ae8c-ac7b4809ca54",
             "Value": {
                 "id": "787ecd2c-da81-4395-9e0c-4932f0b38377",
@@ -540,6 +548,14 @@
                 "id": "b020f4f9-b468-4922-a8b0-e3365be80966",
                 "resourcePath": "objects\\absGun\\absGun.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "af5d5eb5-7fd4-4394-8c0b-f6a0729e7987",
+            "Value": {
+                "id": "9b37a33b-c22f-4790-bbc7-18035af035f2",
+                "resourcePath": "sprites\\sprWave\\sprWave.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
