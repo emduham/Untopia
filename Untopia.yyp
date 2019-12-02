@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "51975b0b-f76a-43c9-9c89-cc3dac0737bb",
+            "Value": {
+                "id": "29289515-cd8b-45b7-baa3-e90aea7c7b47",
+                "resourcePath": "objects\\objSniper\\objSniper.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "51fd261b-d596-4b2c-abdb-d90b5a2a0c87",
             "Value": {
                 "id": "0b97c77b-3795-4a78-acea-df7fc813d63b",
@@ -540,6 +548,14 @@
                 "id": "d328ec0f-59e9-4427-9b2f-04145c129021",
                 "resourcePath": "objects\\absGunFullAuto\\absGunFullAuto.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8ce9dfa0-0fd7-4598-bf0a-e1088c2bf930",
+            "Value": {
+                "id": "a1ef4bf6-3995-48fb-8b44-3e78568f9530",
+                "resourcePath": "sprites\\sprSniper\\sprSniper.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -828,6 +844,14 @@
                 "id": "34d021eb-0f65-46eb-9d90-814c10d39783",
                 "resourcePath": "sprites\\sprShotgun\\sprShotgun.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ecbda58c-5fc0-44c3-bcab-ffa5b98c3c87",
+            "Value": {
+                "id": "8059b812-c78e-4200-8f1e-5c6cc4121a8f",
+                "resourcePath": "rooms\\DesertLevel\\DesertLevel.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

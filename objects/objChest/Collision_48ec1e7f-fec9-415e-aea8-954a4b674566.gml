@@ -10,5 +10,14 @@ if (keyboard_check_pressed(ord("E")) && !looted) {
 		} else {
 			instance_create_depth(x, y + 16, -1, objBabyDragon);	
 		}
+	} else if (room_get_name(room) == "DesertLevel") {
+		chance = random(3.0);
+		if (chance < 1.0) {
+			instance_create_depth(x, y + 16, -1, objSniper);
+		} else if (chance < 2.0) {
+			instance_create_depth(x, y + 16, -1, objShotgun);	
+		} else {
+			instance_create_depth(x, y + 16, -1, objSMG);	
+		}
 	}
 }
