@@ -1,5 +1,6 @@
 if (activeSkillCooldown) {
 	alarm[3] = skillCooldown;
+	audio_play_sound(sndFireball, 0, false);
 	activeSkillCooldown = false;
 	var fireball;
 	distScale = point_distance(x, y, mouse_x, mouse_y) / 16;

@@ -1,6 +1,7 @@
 if (activeSkillCooldown) {
 	alarm[3] = skillCooldown;
 	activeSkillCooldown = false;
+	audio_play_sound(sndArc, 0, false);
 	var wave;
 	distScale = point_distance(x, y, mouse_x, mouse_y) / 16;
 	bulletX = x + ((mouse_x - x) / distScale);
