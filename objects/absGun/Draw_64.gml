@@ -1,4 +1,4 @@
-if (global.gunEquipped && maxMag >= 0) {
+if (global.gunEquipped && equipped) {
 	percentAmmo = (currentMag * 100.0) / maxMag;
 	if (global.characterChoice == "toad") {
 		draw_healthbar(10, 40, 210, 50, percentAmmo, c_black, c_yellow, c_yellow, 0, true, true);
