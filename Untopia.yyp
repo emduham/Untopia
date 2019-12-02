@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "65a6583e-93ca-4b1c-9584-058f1f9d06ab",
+            "Value": {
+                "id": "0efbe215-a419-480a-ac63-164b7fa7b8d9",
+                "resourcePath": "objects\\objFireParticles\\objFireParticles.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6afdb42e-584d-4a1e-af27-be4b10547ca9",
             "Value": {
                 "id": "0a77516d-7da4-4f59-b370-150fe0c4da67",

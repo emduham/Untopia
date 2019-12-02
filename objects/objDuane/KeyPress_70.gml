@@ -5,8 +5,8 @@ if (activeSkillCooldown) {
 		instance_destroy(objRockWall, false);
 	}
 	var rockwall;
-	distScale = point_distance(x, y, mouse_x, mouse_y) / 16;
+	distScale = point_distance(x, y, mouse_x, mouse_y) / 48;
 	bulletX = x + ((mouse_x - x) / distScale);
 	bulletY = y + ((mouse_y - y) / distScale);
-	rockwall = instance_create_depth(bulletX, bulletY, -500, objRockWall);
+	rockwall = instance_create_depth(bulletX, bulletY, -4, objRockWall);
 }
