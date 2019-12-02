@@ -23,6 +23,12 @@ if (currentFireRate <= 0) {
 }
 
 //DirectionCheck
+if (x > objPlayer.x) {
+	facingLeft = false;	
+} else {
+	facingLeft = true;	
+}
+
 
 if (facingLeft) {
 	image_xscale = -1;	
