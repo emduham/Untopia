@@ -1,5 +1,5 @@
 if (activeSkillCooldown) {
-	alarm[3] = 60;
+	alarm[3] = skillCooldown;
 	activeSkillCooldown = false;
 	var fireball;
 	distScale = point_distance(x, y, mouse_x, mouse_y) / 16;
