@@ -1,5 +1,5 @@
 if (other.reflected) {
-	hp -= global.currentGunDamage;
+	hp -= 6;
 	if (hp <= 0) {
 		instance_destroy(id, false);
 	}
