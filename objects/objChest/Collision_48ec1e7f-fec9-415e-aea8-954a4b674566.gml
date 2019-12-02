@@ -19,5 +19,14 @@ if (keyboard_check_pressed(ord("E")) && !looted) {
 		} else {
 			instance_create_depth(x, y + 16, -1, objSMG);	
 		}
+	} else if (room_get_name(room) == "CragLevel") {
+		chance = random(3.0);
+		if (chance < 1.0) {
+			instance_create_depth(x, y + 16, -1, objMinigun);
+		} else if (chance < 2.0) {
+			instance_create_depth(x, y + 16, -1, objBlunderbuster);	
+		} else {
+			instance_create_depth(x, y + 16, -1, objDragon);	
+		}
 	}
 }

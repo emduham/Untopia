@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "483fef55-dd0c-4090-8538-00117eb22ba9",
+            "Value": {
+                "id": "be4b950a-55e5-4207-8f51-03bddb239fee",
+                "resourcePath": "objects\\objDragon\\objDragon.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4bc584e7-8b5d-49e5-8fec-b9df13abbec2",
             "Value": {
                 "id": "23747e4d-f3f9-4658-b3e6-23e95c4caa24",
