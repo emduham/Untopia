@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "a4983650-f2f1-4722-b9c3-929f03f2b8b2",
+            "Value": {
+                "id": "40308670-c3c6-47fe-beea-a852239ff341",
+                "resourcePath": "rooms\\SavannahLevel\\SavannahLevel.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "64a191cf-1867-4d83-ab0b-6a319c8af809",
