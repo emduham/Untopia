@@ -12,3 +12,4 @@ iframes = 0;
 walkingSprite = sprMerlinRun;
 idleSprite = sprMerlinIdle;
 activeSkillCooldown = true;
+skillCooldown = 15 * room_speed;

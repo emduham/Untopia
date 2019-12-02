@@ -12,3 +12,4 @@ iframes = 0;
 walkingSprite = sprCellRun;
 idleSprite = sprCellIdle;
 activeSkillCooldown = true;
+skillCooldown = 10 * room_speed;

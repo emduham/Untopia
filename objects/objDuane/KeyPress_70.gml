@@ -1,5 +1,5 @@
 if (activeSkillCooldown) {
-	alarm[3] = 60;
+	alarm[3] = skillCooldown;
 	activeSkillCooldown = false;
 	if(instance_number(objRockWall) > 0) {
 		instance_destroy(objRockWall, false);
