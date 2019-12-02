@@ -21,5 +21,25 @@ repeat(buttons) {
 	}
 	
 	draw_text(xx + (button_w / 2), yy + (button_h / 2), button[i]);
+	
+	sprX = xx + 15;
+	sprY = yy + 15;
+	switch(i) {
+		case 0:
+			draw_sprite(sprCellIdle, cellIndex, sprX, sprY);
+			break;
+		case 1:
+			draw_sprite(sprMerlinIdle, merlinIndex, sprX, sprY);
+			break;
+		case 2:
+			draw_sprite(sprToadIdle, toadIndex, sprX, sprY);
+			break;
+		case 3:
+			draw_sprite(sprDuaneIdle, duaneIndex, sprX, sprY);
+			break;
+		default:
+			break;
+	}
+	
 	i++;	
 }

@@ -29,3 +29,27 @@ if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space) || keyb
 			break;
 	}
 }
+
+if (cellIndex < cellFrames) {
+	cellIndex += cellSpeed;
+} else {
+	cellIndex = 0;
+}
+
+if (merlinIndex < merlinFrames) {
+	merlinIndex += merlinSpeed;
+} else {
+	merlinIndex = 0;
+}
+
+if (toadIndex < toadFrames) {
+	toadIndex += toadSpeed;
+} else {
+	toadIndex = 0;
+}
+
+if (duaneIndex < duaneFrames) {
+	duaneIndex += duaneSpeed;
+} else {
+	duaneIndex = 0;
+}
