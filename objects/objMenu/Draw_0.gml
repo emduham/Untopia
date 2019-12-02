@@ -17,7 +17,8 @@ repeat(buttons) {
 	}
 	
 	if (menuIndex != lastSelected) {
-		//Play a sound here
+		audio_play_sound(sndClick, 0, false);
+		lastSelected = menuIndex;
 	}
 	
 	draw_text(xx + (button_w / 2), yy + (button_h / 2), button[i]);

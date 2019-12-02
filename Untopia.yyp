@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "213f67d0-f9ba-46d4-b4e4-df8265056633",
+            "Value": {
+                "id": "8527aff3-dd65-469c-85c8-d54090c59d8a",
+                "resourcePath": "objects\\objMusicHandler\\objMusicHandler.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "226d13ce-f9ad-40df-9701-c5f254425394",
             "Value": {
                 "id": "8d9ab7d9-8992-4893-8a4e-05b78c646fe8",
@@ -180,6 +188,14 @@
                 "id": "384a67ed-129d-4b38-88b6-887480f8c410",
                 "resourcePath": "views\\2ba1f759-7956-410b-beed-23c16a0d338f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2e19261d-de79-4489-b89b-41aa8b948683",
+            "Value": {
+                "id": "6a759a34-1e5d-4a7a-b2fa-58f0c4a09284",
+                "resourcePath": "sounds\\sndClick\\sndClick.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -252,6 +268,14 @@
                 "id": "fe45209c-5965-4907-94f9-3c0e58f55db0",
                 "resourcePath": "objects\\objLargeEnemy\\objLargeEnemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "41279257-1cb9-421f-9378-f933f3d029b3",
+            "Value": {
+                "id": "02e213ce-7dd3-4959-bc0e-3effd36307a6",
+                "resourcePath": "sounds\\musCrag\\musCrag.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -423,6 +447,14 @@
             }
         },
         {
+            "Key": "650db3e7-3a4b-43b0-8c18-2e1b7fd171bb",
+            "Value": {
+                "id": "e12239f8-84e3-4d53-8d90-0cc211fea092",
+                "resourcePath": "sounds\\sndBullet\\sndBullet.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "652ddefc-ef05-4f63-8973-db51b334c0f1",
             "Value": {
                 "id": "a2474d14-9a58-493d-8273-402c1bdcdf49",
@@ -436,6 +468,14 @@
                 "id": "0efbe215-a419-480a-ac63-164b7fa7b8d9",
                 "resourcePath": "objects\\objFireParticles\\objFireParticles.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "69ddbc28-cc8d-4df0-a355-859653150fe9",
+            "Value": {
+                "id": "3e2baad1-22fe-48e4-9bbe-9fd38908afe8",
+                "resourcePath": "sounds\\musSavannah\\musSavannah.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -671,6 +711,14 @@
             }
         },
         {
+            "Key": "a044698e-e3ef-4e39-a657-8053a9621d8f",
+            "Value": {
+                "id": "67b5f4f5-f561-4035-9e58-2549326b42cd",
+                "resourcePath": "sounds\\sndFireball\\sndFireball.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "a0d147a0-318d-470c-abd2-a537e13cf8f7",
             "Value": {
                 "id": "87679545-14fb-4f2d-8bc3-190b05719985",
@@ -692,6 +740,14 @@
                 "id": "40308670-c3c6-47fe-beea-a852239ff341",
                 "resourcePath": "rooms\\SavannahLevel\\SavannahLevel.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "a61fc064-e510-46e7-9e85-ab45fb974156",
+            "Value": {
+                "id": "29cfa72d-0ef2-4682-a4f6-082ccddba966",
+                "resourcePath": "sounds\\sndArc\\sndArc.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -812,6 +868,14 @@
                 "id": "b13e4202-f4b3-477d-89f2-4024b33b1d96",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cce06905-be83-428a-9921-14bc09472d1a",
+            "Value": {
+                "id": "25b39442-8496-4c0c-ab6b-b3e65d787315",
+                "resourcePath": "sounds\\musDesert\\musDesert.yy",
+                "resourceType": "GMSound"
             }
         },
         {

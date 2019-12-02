@@ -46,6 +46,7 @@ if (global.characterChoice != "toad" || objToad.activeSkillCooldown) {
 		currentMag--;
 		alarm[1] = 30;		//Alarm sets the gun to start cooling down.
 		recoilCooldown = false;
+		audio_play_sound(sndBullet, 0, false);
 	} else if (currentMag > 0  && equipped) {
 		if (currentFireRate >= 0) {
 			currentFireRate--;
