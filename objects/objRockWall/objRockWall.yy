@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "objRockWall",
     "eventList": [
-        
+        {
+            "id": "477f21fe-3bcf-415c-b018-01e96266c7a2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "b98a60ba-66ba-4341-9026-9f9d0501a668"
+        },
+        {
+            "id": "0402de14-3365-4366-8948-7897c26b1164",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "b98a60ba-66ba-4341-9026-9f9d0501a668"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

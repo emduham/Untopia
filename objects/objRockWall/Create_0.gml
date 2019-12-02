@@ -1,0 +1,1 @@
+rockHealth = 100;
