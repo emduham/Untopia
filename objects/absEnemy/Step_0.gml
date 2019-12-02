@@ -1,5 +1,5 @@
 /// Line of sight
-canSeePlayer = !collision_line(x, y, objPlayer.x, objPlayer.y, objWall, false, false);
+canSeePlayer = !collision_line(x, y, objPlayer.x, objPlayer.y, objWall, false, false) && !collision_line(x, y, objPlayer.x, objPlayer.y, objLiquid, false, false);
 if (currentFireRate <= 0) {
 	if (canSeePlayer) {
 		var bullet;

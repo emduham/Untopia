@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1321bda5-ec9f-4806-9e5d-633f83dd13bd",
+            "Value": {
+                "id": "8b2c50e7-dcdc-418a-bc10-1b59eebf5e4b",
+                "resourcePath": "sprites\\sprMinigun\\sprMinigun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "14d11631-a5ba-41b0-b930-b507bba68ae6",
             "Value": {
                 "id": "d230a2c6-cb6f-4218-b312-622654876c75",
@@ -123,6 +131,14 @@
             "Value": {
                 "id": "d0c8b8a2-9e84-4680-aa02-40e97b6dc82b",
                 "resourcePath": "sprites\\sprOpenChest\\sprOpenChest.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1f332d35-b696-4449-8030-d4eedf4d6430",
+            "Value": {
+                "id": "4a9857b3-cc7f-459e-83f4-3351064f05d7",
+                "resourcePath": "sprites\\sprDragon\\sprDragon.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -196,14 +212,6 @@
                 "id": "43fe4bff-c240-4ae7-a6aa-074daaff61cd",
                 "resourcePath": "views\\36ba5abb-8535-47cd-afa6-ab4420e5f778.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "392c296e-db38-4282-873c-2479984566e9",
-            "Value": {
-                "id": "2da7a61c-406d-45a8-9e00-42988bd1610b",
-                "resourcePath": "rooms\\RmLaboratory\\RmLaboratory.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -347,6 +355,22 @@
             "Value": {
                 "id": "cea67f53-ddd3-4070-9d93-0a8c1e117782",
                 "resourcePath": "sprites\\sprCrag\\sprCrag.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6154e4fd-4b9c-4018-ad10-32b40a876436",
+            "Value": {
+                "id": "83c1b450-711e-4b0a-8307-bdf304635ab3",
+                "resourcePath": "objects\\objBlunderbuster\\objBlunderbuster.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "621a27a1-48e4-4e5a-9e91-45c7251b915d",
+            "Value": {
+                "id": "093fe320-0afc-4a2a-8b28-305da9093ff7",
+                "resourcePath": "sprites\\sprBlunderbuster\\sprBlunderbuster.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -535,6 +559,14 @@
             }
         },
         {
+            "Key": "843dbfd1-229e-4676-aaca-0d6a3a5704b2",
+            "Value": {
+                "id": "102d7db0-d126-4ccc-ac05-667225789f1c",
+                "resourcePath": "objects\\objMinigun\\objMinigun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "84f25956-f644-4854-ab35-f39e273d8807",
             "Value": {
                 "id": "426c2d62-4118-4bec-8e96-06c8e51efc6e",
@@ -687,6 +719,14 @@
             }
         },
         {
+            "Key": "b05d56c4-8992-404e-96f9-a199225445cc",
+            "Value": {
+                "id": "f165335f-ffd8-4484-a474-c106b8be06a7",
+                "resourcePath": "objects\\objLiquid\\objLiquid.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b2be96ea-cb25-4553-a879-7a9c4c85b83b",
             "Value": {
                 "id": "f6d5386d-ca78-4285-b838-f1dbde6b7b7e",
@@ -708,6 +748,14 @@
                 "id": "fbb739bc-15f9-4910-b7db-17d984c81ce3",
                 "resourcePath": "sprites\\sprLargeEnemy\\sprLargeEnemy.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b7258a74-5275-41ae-b717-cb2f9ac19ccc",
+            "Value": {
+                "id": "b5078ae5-c8c1-415f-9076-423a3fe7597b",
+                "resourcePath": "rooms\\CragLevel\\CragLevel.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -748,14 +796,6 @@
                 "id": "6dd1cd25-eb1c-41e0-8fd9-750113d3ee3a",
                 "resourcePath": "objects\\objFireball\\objFireball.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "c7e799f6-4c1f-45a4-a1f0-80761bbed75c",
-            "Value": {
-                "id": "fae17e66-5071-4e52-8ce9-f0a9a98acb32",
-                "resourcePath": "rooms\\Tutorial\\Tutorial.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -884,14 +924,6 @@
                 "id": "498ec08f-fe6e-43aa-bd18-c5678b3e9c92",
                 "resourcePath": "sprites\\sprAmmo\\sprAmmo.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "f6881f6e-5bfa-44da-96cc-933611932137",
-            "Value": {
-                "id": "2d91352d-c666-4960-84c5-2cc436ca105b",
-                "resourcePath": "rooms\\RmIceCaves\\RmIceCaves.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
