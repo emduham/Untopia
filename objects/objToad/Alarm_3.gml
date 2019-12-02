@@ -1,0 +1,2 @@
+activeSkillCooldown = true;
+solid = false;

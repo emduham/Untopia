@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "6cff856b-e265-42a9-aac0-6b03a0c1b8a1",
+            "Value": {
+                "id": "0e80af43-7e4b-4d29-9ed8-531659f733bf",
+                "resourcePath": "sprites\\sprToadStone\\sprToadStone.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6e7ffbc3-81bd-4d65-a1e3-55e02aa1b1e6",
             "Value": {
                 "id": "ad1628a3-ad2b-439d-bca7-f4190e4b0975",

@@ -11,3 +11,4 @@ iframes = 0;
 
 walkingSprite = sprToadRun;
 idleSprite = sprToadIdle;
+activeSkillCooldown = true;
